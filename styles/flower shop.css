@@ -1,11 +1,105 @@
+
+
+
+
+
 .header{
-    background-color:   #e554733f;
+    background-color:   #e554731c;
 }
 .banner{
-    padding: 30px 30px 30px 150px ;
+    padding: 30px 30px 0px 150px ;
     display: flex;
+    justify-content: space-around;
     align-items: center;
 }
 .banner .profile-pic{
-    width: 650px; height: 800px;
+    width: 350px;
+}
+.banner-greeting{
+    font-size: 55px;
+    width: bold;
+}
+.btn-primary{
+    padding: 10px 20px;
+    background-color: #E55473;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.feat{
+    padding: 10px;
+}
+.featured{
+    text-align: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+.flowers{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 130px;
+}
+.f1{
+    background-color: #a7216225;
+}
+.f2{
+    background-color:#0598a027 ;
+}
+.f3{
+    background-color:#477d1125;
+}
+.group-images{
+    background-color: #2727270a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    margin: 30px 130px;
+}
+.p{
+    text-align: center;
+}
+
+.sale{
+    background-color:   #e554730c;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.social{
+    text-align: center;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.four-flower-images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 130px;
+}
+
+.latest-deals{
+   text-align: center;
+   padding: 50px;
+   margin: 30px 130px;
+   background-image:url("../Flower\ Asset/Rectangle 9.png");
+   background-repeat: no-repeat;
+   background-size:auto
+   
+}
+.ph{
+    padding: 10px 50px;
+}
+
+.footer{
+    background-color:#0e0c0c;
+    text-align: center;
+    justify-content: space-around;
+    color: rgba(255, 255, 255, 0.815);
+    padding: 50px;
 }
